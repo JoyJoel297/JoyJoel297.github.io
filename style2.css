@@ -3,6 +3,20 @@ body
   background-color: lightblue;
 }
 
+#header table 
+{
+    background-color: orange; /* orange color */
+    color: white;
+    border-radius: 8px;        /* Optional: rounds the corners */
+    padding: 10px;
+}
+
+#header td {
+    font-family: Arial, sans-serif;
+    font-size: 24px;       /* Makes "CadMD Medical Form" larger */
+    font-weight: bold;
+}
+
 h1 
 {
   color: white;
