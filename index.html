@@ -38,7 +38,7 @@
 <form action="HW1thanks.html">
    <table class="form">
     <tr class="form">
-        <th class="form" colspan="3">Set up a new account</th>
+        <th class="form" colspan="3">Fill out the following information</th>
     </tr>
     <tr class="form">
         <td align="right">
@@ -74,8 +74,28 @@
                     oninput="this.setCustomValidity('')"
                     placeholder="Public (req'd)"
             >
-        <span id="name_text"><</td>
-    </tr>
+        <span id="name_text"><</td>            
+  </tr>
+            
+  <tr  class="form">
+        <td align="right">     
+            <label for="DOB" >Date of Birth</label>
+        </td>
+        <td>
+            <input type="date" 
+                    size="20" 
+                    minlength="4"
+                    maxlength="10" 
+                    id="DOB" 
+                    name="DOB" 
+                    required
+                    oninvalid="this.setCustomValidity('Date of Birth Required')"
+                    oninput="this.setCustomValidity('')"
+                    placeholder="mm/dd/yy"
+            >
+        </td>
+  </tr>
+            
     <tr  class="form">
         <td align="right">
             <label for="addr1" >Address Line 1</label>
