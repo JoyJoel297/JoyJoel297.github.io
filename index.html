@@ -4,6 +4,7 @@
     File: homework1practicw.html
     Date Created: 2026-02-06
     Date Updated: 2026-02-27
+    Version 3.0
     Description: MIS 3371 Homework 1... learning HTML and creating a form.
 -->
 <html>
@@ -49,7 +50,7 @@
                     size="25"
                     maxlength="30" 
                     id="firstname" 
-                    name="firsttname" 
+                    name="firstname" 
                     required
                     oninvalid="this.setCustomValidity('First Name is Required')"
                     oninput="this.setCustomValidity('')"
@@ -97,7 +98,7 @@
   </tr>
 <tr  class="form">         
     <td align="right">
-      <label for="SSN" >Social Security</label>
+      <label for="SSN">Social Security</label>
         </td>
             <td>
             <input type="text" 
@@ -111,10 +112,8 @@
                     oninput="this.setCustomValidity('')"
                     placeholder="***-**-****">
 
-                </td>
-      
-  </tr>
-            
+                </td>   
+  </tr>         
     <tr  class="form">        
         <td align="right">
             <label for="addr1" >Address Line 1</label>
@@ -247,12 +246,19 @@
             <span id="phone_text">  
         </td>
     </tr class="form">
-
-
-
-
-
-
+ <tr class="form">
+   <td align="right">
+            <label for="Email">Email Address</label>
+        </td>
+     <td>
+            <input type="text" 
+                    size="30" 
+                    maxlength="30" 
+                    id="Email" 
+                    name="Email" 
+                    placeholder="name@domain.com"
+            >
+ </tr class="form">
     <tr>        
         <td colspan="3">
             <center>
