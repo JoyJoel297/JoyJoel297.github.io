@@ -55,7 +55,7 @@
                     oninvalid="this.setCustomValidity('First Name is Required')"
                     oninput="this.setCustomValidity('')"
                     placeholder="(req'd)"
-            >
+            >       
     <label for="middleinit">MI</label>
             <input type="text" 
                     size="1"
@@ -130,7 +130,8 @@
                     oninput="this.setCustomValidity('')"
                     placeholder="1234 Main St (req'd)"
             >
-        <span id="addr1_text"></td>
+        <span id="addr1_text">
+        </td>
     </tr>
     <tr  class="form">
         <td align="right">
@@ -163,6 +164,7 @@
                     oninput="this.setCustomValidity('')"
                     placeholder="Anytown (req'd)"
             >
+        </td>  
             <select required>
                 <option value=""></option>
                 <option value="AL">Alabama</option>
@@ -259,14 +261,18 @@
                     placeholder="name@domain.com"
             >         
  <tr class="form"> 
- <br>    
+ <td align="right"><label for="vaclist"> Check which Vaccines you have which are up-to-date?</td> 
+  <td rowspan="5">   
   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
   <label for="vehicle1">Measles</label><br>
   <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
   <label for="vehicle2">Pneumococcal</label><br>
   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3">Meningococcal</label><br><br>
-  <input type="submit" value="Submit"> 
+  <label for="vehicle3">Meningococcal</label><br>
+  <input type="checkbox" id="shingles" name="shingles" value="shingles">
+  <label for="shingles">Shingles</label><br>    
+  <input type="submit" value="Submit">
+ </td> 
  </tr class="form">    
      
 
