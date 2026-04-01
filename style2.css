@@ -3,6 +3,11 @@ body
   background-color: lightblue;
 }
 
+#body table {
+  background-color: light-orange;
+  color: white;
+  padding: 20 px;
+
 #body td{
 text-align: left;
 }
