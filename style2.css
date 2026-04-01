@@ -3,6 +3,10 @@ body
   background-color: lightblue;
 }
 
+#body td{
+text-align: left;
+}
+
 #header table 
 {
     background-color: orange; /* orange color */
